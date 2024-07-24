@@ -54,3 +54,13 @@ input {
   background-color: #11141a;
   cursor: pointer;
 }
+
+#aprovado {
+  color: #00a2ff;
+  font-weight: bold;
+}
+
+#reprovado {
+  color: #ff0040;
+  font-weight: bold;
+}
