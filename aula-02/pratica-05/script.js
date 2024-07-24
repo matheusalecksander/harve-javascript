@@ -4,7 +4,7 @@ function somar() {
 	const resultado = document.getElementById("resultado");
 
 	resultado.innerHTML = `
-		<span>O resultado de somar é ${num01 + num02}
+		<span>O resultado de somar é ${num01 + num02}</span>
 	`;
 }
 
@@ -14,7 +14,7 @@ function subtrair() {
 	const resultado = document.getElementById("resultado");
 
 	resultado.innerHTML = `
-		<span>O resultado de subtrair é ${num01 - num02}
+		<span>O resultado de subtrair é ${num01 - num02}</span>
 	`;
 }
 
@@ -24,7 +24,7 @@ function multiplicar() {
 	const resultado = document.getElementById("resultado");
 
 	resultado.innerHTML = `
-		<span>O resultado de multiplicar é ${num01 * num02}
+		<span>O resultado de multiplicar é ${num01 * num02}</span>
 	`;
 }
 
@@ -34,7 +34,7 @@ function dividir() {
 	const resultado = document.getElementById("resultado");
 
 	resultado.innerHTML = `
-		<span>O resultado de dividir é ${num01 / num02}
+		<span>O resultado de dividir é ${num01 / num02}</span>
 	`;
 }
 
@@ -44,7 +44,7 @@ function potencializar() {
 	const resultado = document.getElementById("resultado");
 
 	resultado.innerHTML = `
-		<span>O resultado potencializar de é ${num01 ** num02}
+		<span>O resultado potencializar de é ${num01 ** num02}</span>
 	`;
 }
 
@@ -54,6 +54,6 @@ function resto() {
 	const resultado = document.getElementById("resultado");
 
 	resultado.innerHTML = `
-		<span>O resultado de resto é ${num01 % num02}
+		<span>O resultado de resto é ${num01 % num02}</span>
 	`;
 }
