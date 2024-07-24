@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 02</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="container">
+				<div>
+					<h2>Calcular o IMC</h2>
+				</div>
+				<form onsubmit="calcular(event)" action="/">
+					<div class="input-group">
+						<label for="altura">Altura</label>
+						<input placeholder="Digite a altura em centímetros" type="text" id="altura" name="altura" />
+					</div>
+					<div class="input-group">
+						<label for="peso">Peso</label>
+						<input placeholder="Digite o peso em quilogramas" type="text" id="peso" name="peso" />
+					</div>
+					<button id="submit" type="submit">Calcular</button>
+				</form>
+				<div id="resultado"></div>
+			</div>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>

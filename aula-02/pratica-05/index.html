@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 02</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="container">
+				<div>
+					<h2>Informe os números</h2>
+				</div>
+				<div class="input-group">
+					<label for="num-01">Número 01</label>
+					<input placeholder="Digite um número" type="text" id="num-01" name="num-01" />
+				</div>
+				<div class="input-group">
+					<label for="num-02">Número 02</label>
+					<input placeholder="Digite outro número" type="text" id="num-02" name="num-02" />
+				</div>
+				<div id="container-botoes">
+					<button onclick="somar()" class="botao" type="button">Somar</button>
+					<button onclick="subtrair()" class="botao" type="button">Subtrair</button>
+					<button onclick="multiplicar()" class="botao" type="button">Multiplicar</button>
+					<button onclick="dividir()" class="botao" type="button">Dividir</button>
+					<button onclick="potencializar()" class="botao" type="button">Potencializar</button>
+					<button onclick="resto()" class="botao" type="button">Resto da divisão</button>
+				</div>
+				<div id="resultado"></div>
+			</div>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>

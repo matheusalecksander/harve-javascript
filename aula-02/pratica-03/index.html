@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 02</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="container">
+				<div>
+					<h2>Informe a nota dos alunos</h2>
+				</div>
+				<form onsubmit="calcular(event)" action="/">
+					<div class="input-group">
+						<label for="aluno">Aluno</label>
+						<input placeholder="Digite o nome do aluno" type="text" id="aluno" name="aluno" />
+					</div>
+					<div class="input-group">
+						<label for="nota">Nota</label>
+						<input placeholder="Digite a nota do aluno" type="text" id="nota" name="nota" />
+					</div>
+					<div class="input-group">
+						<label for="faltas">Faltas</label>
+						<input placeholder="Digite as faltas do aluno" type="text" id="faltas" name="faltas" />
+					</div>
+					<button id="submit" type="submit">Calcular</button>
+				</form>
+				<div id="resultado"></div>
+			</div>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>

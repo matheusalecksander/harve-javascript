@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 02</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="container">
+				<div>
+					<h2>Informe o nome da pizza para verificarmos no cardápio</h2>
+				</div>
+				<div class="input-group">
+					<label for="pizza">Pizza</label>
+					<input placeholder="Digite o nome da pizza" type="text" id="pizza" name="pizza" />
+				</div>
+				<button onclick="buscarPizza()" type="button" id="validar">Buscar</button>
+				<div id="resultado"></div>
+			</div>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>
