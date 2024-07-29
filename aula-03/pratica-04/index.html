@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 03</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="wrapper">
+				<div>
+					<h2>Calcular retorno de investimentos</h2>
+				</div>
+				<div id="resultado">
+					<div class="container">
+						<label for="capital-inicial">Capital inicial</label>
+						<input placeholder="Informe o capital" type="text" name="capital-inicial" id="capital-inicial" />
+					</div>
+					<div class="container">
+						<label for="taxa-juros">Taxa de juros (mensal)</label>
+						<input placeholder="Informe a taxa de juros" type="text" name="taxa-juros" id="taxa-juros" />
+					</div>
+					<div class="container">
+						<label for="prazo-investimento">Prazo (em meses)</label>
+						<input
+							placeholder="Informe o prazo do investimento"
+							type="text"
+							name="prazo-investimento"
+							id="prazo-investimento"
+						/>
+					</div>
+					<div class="container">
+						<button onclick="calcularInvestimento()">Calcular</button>
+					</div>
+					<p id="inicio-resultado" class="display-none">
+						O seu investimento de <strong id="capital-investido"></strong> terá um retorno total de
+						<strong id="resultado-investimento"></strong> depois de <strong id="prazo-investido"></strong> meses.
+						Resultando em <strong id="lucro-liquido"></strong> de valorização patrimonial.
+					</p>
+				</div>
+			</div>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>

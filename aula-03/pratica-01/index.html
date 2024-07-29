@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 03</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="wrapper">
+				<div>
+					<h2>Funções nativas do método string</h2>
+				</div>
+				<div id="resultado">
+					<div class="container">
+						<p>Vamos manipular a string abaixo:</p>
+						<span id="string-manipular">Harve escola de tecnologia</span>
+					</div>
+					<div class="container">
+						<div id="tamanho">
+							<span>Para verificar o tamanho da string utilizamos a propriedade <strong>length</strong> </span>
+							<span>A string tem <strong id="tamanho-string"></strong> caracteres! </span>
+						</div>
+					</div>
+					<div class="container">
+						<div id="caracterEm">
+							<span>
+								Nós podemos acessar um caracter em um posição especifica da nossa string utilizando o método
+								<strong>charAt(index)</strong>
+							</span>
+							<span>
+								O caracter na posição <strong id="posicao-caracter"></strong> é
+								<strong id="caracter-especifico"></strong>!
+							</span>
+						</div>
+					</div>
+					<div class="container">
+						<div id="substituir">
+							<span>
+								Nós podemos substituir um pedaço da nossa string utilizando o método
+								<strong>replace(conteudoOriginal, novoConteudo)</strong>
+							</span>
+							<span>
+								Após altermos nossa string obtivemos o resultado:
+								<strong id="resultado-substituir"></strong>
+							</span>
+						</div>
+					</div>
+					<div class="container">
+						<div id="minuscula">
+							<span>
+								Nós podemos transformar toda a nossa string em letras minúsculas utilizando o método
+								<strong>toLowerCase()</strong>
+							</span>
+							<span>
+								Após convertermos nossa string em minúscula obtvemos o seguinte resultado
+								<strong id="resultado-minuscula"></strong>
+							</span>
+						</div>
+					</div>
+					<div class="container">
+						<div id="maiuscula">
+							<span>
+								Nós podemos transformar toda a nossa string em letras maiúsculas utilizando o método
+								<strong>toUpperCase()</strong>
+							</span>
+							<span>
+								Após convertermos nossa string em maiúsculas obtvemos o seguinte resultado
+								<strong id="resultado-maiuscula"></strong>
+							</span>
+						</div>
+					</div>
+					<div class="container">
+						<div id="espacos">
+							<p>
+								Algumas vezes pode acontecer de termos uma string com espaçoes em branco no ínicio ou no fim, nós
+								podemos limpar esses espaços utilizando o método <strong>trim()</strong>
+							</p>
+							<p id="string-com-espacos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aqui temos vários espaços</p>
+							<p>Após retirarmos os espaços: <strong id="sem-espacos"></strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>

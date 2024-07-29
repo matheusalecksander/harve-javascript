@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 02</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="container">
+				<div>
+					<h2>Operações aritiméticas</h2>
+				</div>
+				<div class="input-group">
+					<label for="num-01">Número 01</label>
+					<input placeholder="Digite um número" type="text" id="num-01" name="num-01" />
+				</div>
+				<div class="input-group">
+					<label for="operacao">Operação (somar | subtrair)</label>
+					<input placeholder="Informe a operação que deseja realizar" type="text" id="operacao" name="operacao" />
+				</div>
+				<div class="input-group">
+					<label for="num-02">Número 02</label>
+					<input placeholder="Digite outro número" type="text" id="num-02" name="num-02" />
+				</div>
+				<div id="container-botoes">
+					<button onclick="calcular()" class="botao" type="button">Calcular</button>
+				</div>
+				<div id="resultado"></div>
+			</div>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>

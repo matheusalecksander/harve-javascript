@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 03</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="wrapper">
+				<div>
+					<h2>Funções nativas do objeto Date</h2>
+				</div>
+				<div id="resultado">
+					<div class="container">
+						<div id="get-date">
+							<span>Utilizamos o método <strong>getDate()</strong> para sabermos que dia é hoje</span>
+							<span>Hoje é dia <strong id="dia-do-mes"></strong></span>
+						</div>
+					</div>
+					<div class="container">
+						<div id="get-day">
+							<span>
+								Utilizamos o método <strong>getDay()</strong> para sabermos que dia da semana é hoje. Lembrando que o
+								Javascript armazena os dias da semana em um array de 7 posições, iniciando a contagem em 0, portante o
+								resultado da função getDay sempre será o número do dia atual - 1.
+							</span>
+							<br />
+							<span>Hoje é o dia <strong id="dia-da-semana"></strong> dia da semana</span>
+						</div>
+					</div>
+					<div class="container">
+						<div id="get-month">
+							<span>
+								Utilizamos o método <strong>getMonth()</strong> para sabermos qual mês estamos. Lembrando que o
+								Javascript armazena os meses em um array de 12 posições, iniciando a contagem em 0, portante o resultado
+								da função getMonth sempre será o número do mês atual - 1.
+							</span>
+							<br />
+							<span>Estamos no mês: <strong id="mes-atual"></strong></span>
+						</div>
+					</div>
+					<div class="container">
+						<div id="get-full-year">
+							<span>Utilizamos o método <strong>getFullYear()</strong> para sabermos ano estamos</span>
+							<span>Estamos no ano <strong id="ano-atual"></strong></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>
