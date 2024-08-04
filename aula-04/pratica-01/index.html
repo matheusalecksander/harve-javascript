@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 02</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <div>
+          <h2>Informe a nota dos alunos</h2>
+        </div>
+        <form onsubmit="submitForm(event)" action="/">
+          <div class="input-group">
+            <label for="nome">Nome</label>
+            <input
+              placeholder="Digite seu nome"
+              type="text"
+              id="nome"
+              name="nome"
+            />
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input
+              placeholder="Digite seu email"
+              type="text"
+              id="email"
+              name="email"
+            />
+          </div>
+          <div class="input-group">
+            <label for="nome">Nome</label>
+            <input
+              placeholder="Digite seu nome"
+              type="text"
+              id="nome"
+              name="nome"
+            />
+          </div>
+          <button id="submit" type="submit">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
