@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <main id="main">
+        <h2>Calculadora</h2>
+        <div>
+          <div id="display">
+            <span id="operacao"></span>
+          </div>
+          <div id="calculadora">
+            <div class="row-botoes">
+              <button onclick="apagarTudo()" class="opcoes destaque">C</button>
+              <button onclick="apagar()" class="opcoes">A</button>
+              <button onclick="selecionarItem(event)" class="opcoes">÷</button>
+              <button onclick="selecionarItem(event)" class="opcoes">*</button>
+            </div>
+            <div class="row-botoes">
+              <button onclick="selecionarItem(event)" class="opcoes">7</button>
+              <button onclick="selecionarItem(event)" class="opcoes">8</button>
+              <button onclick="selecionarItem(event)" class="opcoes">9</button>
+              <button onclick="selecionarItem(event)" class="opcoes">-</button>
+            </div>
+            <div class="row-botoes">
+              <button onclick="selecionarItem(event)" class="opcoes">4</button>
+              <button onclick="selecionarItem(event)" class="opcoes">5</button>
+              <button onclick="selecionarItem(event)" class="opcoes">6</button>
+              <button onclick="selecionarItem(event)" class="opcoes">+</button>
+            </div>
+            <div class="ultima-row">
+              <div class="ultima-row-itens-container">
+                <div class="grid-3">
+                  <button onclick="selecionarItem(event)" class="opcoes">
+                    1
+                  </button>
+                  <button onclick="selecionarItem(event)" class="opcoes">
+                    2
+                  </button>
+                  <button onclick="selecionarItem(event)" class="opcoes">
+                    3
+                  </button>
+                </div>
+                <div class="grid-2_2-1 mt-1">
+                  <button
+                    onclick="selecionarItem(event)"
+                    class="opcoes botao-0"
+                  >
+                    0
+                  </button>
+                  <button onclick="selecionarItem(event)" class="opcoes">
+                    .
+                  </button>
+                </div>
+              </div>
+              <div class="botao-igual-container">
+                <button
+                  onclick="calcular()"
+                  class="opcoes destaque botao-igual"
+                >
+                  =
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
